@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button-group {
+  display: block;
+  margin-top: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.js-start,
+.js-stop {
+  font-size: 30px;
+  padding: 12px 45px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.js-start:hover,
+.js-stop:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
