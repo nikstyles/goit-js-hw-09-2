@@ -40,3 +40,26 @@ img {
 .js-stop:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(141, 141, 141) !important;
+  border-radius: 5px;
+}
+
+.value {
+  font-size: 30px;
+}
