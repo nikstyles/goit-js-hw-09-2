@@ -49,6 +49,7 @@ function startTimer() {
 
     // обновляет интерфейс
     updateDataInterface(restOfTime);
+    disabledBtn(true);
   }, 1000);
 
   Notiflix.Notify.success('Timer started successfully');
